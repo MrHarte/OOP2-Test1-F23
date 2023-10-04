@@ -1,6 +1,7 @@
 package com.champlain.oop2test1f23;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 
 public class HelloController {
@@ -14,6 +15,7 @@ public class HelloController {
 
     @FXML
     protected void onByeButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+        Alert confirmAlert = new Alert(Alert.AlertType.CONFIRMATION, "Bye!");
+        confirmAlert.showAndWait();
     }
 }
