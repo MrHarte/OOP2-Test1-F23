@@ -12,5 +12,5 @@
   <Button onAction="#onHelloButtonClick" text="Hello!" />
 
   <Label fx:id="welcomeText" />
-   <Button mnemonicParsing="false" onAction="#onnByeButtonClick" text="Bye!" />
+   <Button mnemonicParsing="false" onAction="#onByeButtonClick" text="Bye!" />
 </VBox>
